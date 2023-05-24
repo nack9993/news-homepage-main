@@ -77,16 +77,8 @@
         text-decoration: none;
       }
 
-      .nav-item a:visited {
-        color: var(--dark-grayish-blue);
-      }
-
-      .new-section a:visited {
-        color: var(--off-white);
-      }
-
-      .rank-section a:visited {
-        color: var(--grayish-blue);
+      a:visited {
+        color: inherit;
       }
 
       a:hover,
@@ -97,7 +89,7 @@
       .container {
         padding: 1rem;
 
-        @media only screen and (min-width: 1440px) {
+        @media only screen and (min-width: 1024px) {
           padding: 1rem 6rem;
         }
       }
@@ -110,14 +102,14 @@
       }
 
       .nav-icon {
-        @media only screen and (min-width: 1440px) {
+        @media only screen and (min-width: 1024px) {
           display: none;
         }
       }
 
       .nav-menu {
         display: none;
-        @media only screen and (min-width: 1440px) {
+        @media only screen and (min-width: 1024px) {
           display: flex;
         }
       }
@@ -133,10 +125,10 @@
       }
 
       .nav-item {
-        @media only screen and (min-width: 1440px) {
+        @media only screen and (min-width: 1024px) {
           display: flex;
           gap: 2rem;
-          color: var(--dark-grayish-blue);
+          color: var(--dark-grayish-blue); !important;
         }
       }
 
@@ -159,7 +151,7 @@
       .main {
         display: block;
 
-        @media only screen and (min-width: 1440px) {
+        @media only screen and (min-width: 1024px) {
           display: flex;
 
           gap: 1.5rem;
@@ -167,7 +159,7 @@
       }
 
       .main-section {
-        @media only screen and (min-width: 1440px) {
+        @media only screen and (min-width: 1024px) {
           display: flex;
           gap: 2rem;
         }
@@ -175,14 +167,14 @@
 
       .main-section .title {
         margin-bottom: 1rem;
-        @media only screen and (min-width: 1440px) {
+        @media only screen and (min-width: 1024px) {
           max-width: 30%;
           line-height: 3rem;
         }
       }
 
       .main-section .content {
-        @media only screen and (min-width: 1440px) {
+        @media only screen and (min-width: 1024px) {
           margin-left: 140px;
           max-width: 35%;
           line-height: 1.5rem;
@@ -202,7 +194,7 @@
         right: 10px;
         position: absolute;
         background-repeat: no-repeat;
-        @media only screen and (min-width: 1440px) {
+        @media only screen and (min-width: 1024px) {
           display: none;
         }
       }
@@ -226,7 +218,7 @@
         margin-bottom: 3rem;
         padding: 1rem;
         background-color: var(--very-dark-blue);
-        color: var(--off-white);
+        color: var(--off-white) !important;
       }
 
       .new-section .title {
@@ -254,7 +246,7 @@
         margin-top: 3rem;
         width: 100%;
 
-        @media only screen and (min-width: 1440px) {
+        @media only screen and (min-width: 1024px) {
           display: flex;
         }
       }
@@ -274,19 +266,19 @@
       .rank-section .content .image {
         max-width: 120px;
 
-        @media only screen and (min-width: 1440px) {
+        @media only screen and (min-width: 1024px) {
           max-width: 160px;
         }
       }
 
       .rank-section .content .context {
-        @media only screen and (min-width: 1440px) {
+        @media only screen and (min-width: 1024px) {
           max-width: 220px;
         }
       }
 
       .rank-section .content .title {
-        color: var(--grayish-blue);
+        color: var(--grayish-blue) !important;
         font-weight: 700;
       }
     </style>
